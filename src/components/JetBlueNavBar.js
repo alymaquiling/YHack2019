@@ -36,8 +36,8 @@ class JetBlueNavBar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                         <Nav.Link href="/">Main Page</Nav.Link>
-                        <Nav.Link href="wordcloud">Word Associations</Nav.Link>
-                        <Nav.Link href="emojis">Emoji Analysis</Nav.Link>
+                        <Nav.Link href="/wordcloud">Word Associations</Nav.Link>
+                        <Nav.Link href="/emojis">Emoji Analysis</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>
