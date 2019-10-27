@@ -5,7 +5,8 @@ class MainPage extends Component {
     render() {
         return (
             <>
-            <h1>JetBlue Analysis</h1>
+            <h1>Mining Insights Online:</h1>
+            <h2><em>JetBlue Customer Sentiment Predicion and Opinion Mining with Tweets</em></h2>
             <br />
             <div>
             <h2>Our Goal</h2>

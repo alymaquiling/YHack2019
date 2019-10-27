@@ -92,7 +92,7 @@ class WordCloud extends Component {
             fontStyle: 'italic',
             fontWeight: 'bold',
             color: randomColor()
-          }}>Futurama{console.log('rendering wordcloud')}</div>
+          }}>airlines{console.log('rendering wordcloud')}</div>
         <div style={styles.large}>travel</div>
         <div style={styles.large}>jet</div>
         <div style={styles.large}>great </div>
