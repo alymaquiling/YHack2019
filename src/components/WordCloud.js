@@ -93,42 +93,29 @@ class WordCloud extends Component {
             fontWeight: 'bold',
             color: randomColor()
           }}>Futurama{console.log('rendering wordcloud')}</div>
-        <div style={styles.large}>Transformers</div>
-        <div style={styles.large}>Simpsons</div>
-        <div style={styles.large}>Dragon Ball</div>
-        <div style={styles.large}>Rick & Morty</div>
-        <div style={{fontFamily: 'courier'}}>He man</div>
-        <div style={{fontSize: 30}}>World trigger</div>
-        <div style={{fontStyle: 'italic'}}>Avengers</div>
-        <div style={{fontWeight: 200}}>Family Guy</div>
-        <div style={{color: 'green'}}>American Dad</div>
+        <div style={styles.large}>travel</div>
+        <div style={styles.large}>jet</div>
+        <div style={styles.large}>great </div>
+        <div style={styles.large}>aviation</div>
+        <div style={{fontFamily: 'courier'}}>bad</div>
+        <div style={{fontSize: 30}}>airline</div>
+        <div style={{fontStyle: 'italic'}}>av</div>
         <div className="tag-item-wrapper">
         </div>
-        <div>Gobots</div>
-        <div>Thundercats</div>
-        <div>M.A.S.K.</div>
-        <div>GI Joe</div>
-        <div>Inspector Gadget</div>
-        <div>Bugs Bunny</div>
-        <div>Tom & Jerry</div>
-        <div>Cowboy Bebop</div>
-        <div>Evangelion</div>
-        <div>Bleach</div>
-        <div>GITS</div>
-        <div>Pokemon</div>
-        <div>She Ra</div>
-        <div>Fullmetal Alchemist</div>
-        <div>Gundam</div>
-        <div>Uni Taisen</div>
-        <div>Pinky and the Brain</div>
-        <div>Bobs Burgers</div>
-        <div style={styles.small}>Dino Riders</div>
-        <div style={styles.small}>Silverhawks</div>
-        <div style={styles.small}>Bravestar</div>
-        <div style={styles.small}>Starcom</div>
-        <div style={styles.small}>Cops</div>
-        <div style={styles.small}>Alfred J. Kwak</div>
-        <div style={styles.small}>Dr Snuggles</div>
+        <div>travel</div>
+        <div>jet</div>
+        <div>alaska</div>
+        <div>life</div>
+        <div>blue</div>
+        <div>av</div>
+        <div>aviation</div>
+        <div>bad</div>
+        <div>airline</div>
+        <div>another</div>
+        <div>flights</div>
+        <div>time</div>
+        <div>delay</div>
+        <div>Southwest</div>
       </TagCloud>
       </div>
       <br />
@@ -155,45 +142,28 @@ class WordCloud extends Component {
             fontStyle: 'italic',
             fontWeight: 'bold',
             color: randomColor()
-          }}>Futurama{console.log('rendering wordcloud')}</div>
+          }}>wait{console.log('rendering wordcloud')}</div>
         {/* <CloudItem text="Custom item, Hover me!" />
         <CloudItem text="Custom item 2, Hover me!" /> */}
-        <div style={styles.large}>Transformers</div>
-        <div style={styles.large}>Simpsons</div>
-        <div style={styles.large}>Dragon Ball</div>
-        <div style={styles.large}>Rick & Morty</div>
-        <div style={{fontFamily: 'courier'}}>He man</div>
-        <div style={{fontSize: 30}}>World trigger</div>
-        <div style={{fontStyle: 'italic'}}>Avengers</div>
-        <div style={{fontWeight: 200}}>Family Guy</div>
-        <div style={{color: 'green'}}>American Dad</div>
+        <div style={styles.large}>aviation</div>
+        <div style={styles.large}>av</div>
+        <div style={styles.large}>geek</div>
+        <div style={styles.large}>service</div>
+        <div style={{fontFamily: 'courier'}}>scheme</div>
+        <div style={{fontSize: 30}}>blueprint</div>
+        <div style={{fontStyle: 'italic'}}>airline</div>
+        <div style={{fontWeight: 200}}>sky</div>
+        <div style={{color: 'green'}}>delay</div>
         <div className="tag-item-wrapper">
         </div>
-        <div>Gobots</div>
-        <div>Thundercats</div>
-        <div>M.A.S.K.</div>
-        <div>GI Joe</div>
-        <div>Inspector Gadget</div>
-        <div>Bugs Bunny</div>
-        <div>Tom & Jerry</div>
-        <div>Cowboy Bebop</div>
-        <div>Evangelion</div>
-        <div>Bleach</div>
-        <div>GITS</div>
-        <div>Pokemon</div>
-        <div>She Ra</div>
-        <div>Fullmetal Alchemist</div>
-        <div>Gundam</div>
-        <div>Uni Taisen</div>
-        <div>Pinky and the Brain</div>
-        <div>Bobs Burgers</div>
-        <div style={styles.small}>Dino Riders</div>
-        <div style={styles.small}>Silverhawks</div>
-        <div style={styles.small}>Bravestar</div>
-        <div style={styles.small}>Starcom</div>
-        <div style={styles.small}>Cops</div>
-        <div style={styles.small}>Alfred J. Kwak</div>
-        <div style={styles.small}>Dr Snuggles</div>
+        <div>Alaska</div>
+        <div>Norwegian</div>
+        <div>nice</div>
+        <div>customer</div>
+        <div>life</div>
+        <div style={styles.small}>hour</div>
+        <div style={styles.small}>service</div>
+        <div style={styles.small}>first</div>
       </TagCloud>
       </div>
     </div>
