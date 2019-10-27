@@ -9,10 +9,15 @@ import {
     Link
 } from "react-router-dom";
 
-import TermFreqGraphPage from './TermFreqGraphPage';
-import WordCloudPage from './WordCloudPage'
+import EmojiChart from './EmojiChart';
+import WordCloud from './WordCloud'
+import MainPage from './MainPage'
+import BarChart from './BarChart';
+
+
 
 class JetBlueNavBar extends Component {
+    
     render() {
         return (
             <Router>
@@ -30,8 +35,9 @@ class JetBlueNavBar extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                        <Nav.Link href="/">Word Cloud</Nav.Link>
-                        <Nav.Link href="/about">Graph</Nav.Link>
+                        <Nav.Link href="/">Main Page</Nav.Link>
+                        <Nav.Link href="/wordcloud">Word Associations</Nav.Link>
+                        <Nav.Link href="/emojis">Emoji Analysis</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -39,19 +45,24 @@ class JetBlueNavBar extends Component {
                 {/* A <Switch> looks through its children <Route>s and
                     renders the first one that matches the current URL. */}
                 <Switch>
-                <Route path="/about">
+                <Route exact path="/">
                     <Container>
-                    <TermFreqGraphPage />
+                    <MainPage />
                     </Container>
                 </Route>
-                <Route path="/">
-                <Container>
-                    <WordCloudPage />
-                </Container>
+                <Route path="/emojis">
+                    <Container>
+                        <EmojiChart /> 
+                    </Container>
+                </Route>
+                <Route path="/wordcloud">
+                    <Container>
+                        <WordCloud />
+                    </Container>
                 </Route>
                 </Switch>
             </div>
-            </Router>
+        </Router>
         );
     }
 }
