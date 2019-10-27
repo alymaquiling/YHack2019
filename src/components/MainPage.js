@@ -6,7 +6,7 @@ class MainPage extends Component {
         return (
             <>
             <h1>Mining Insights Online:</h1>
-            <h2><em>JetBlue Customer Sentiment Predicion and Opinion Mining with Tweets</em></h2>
+            <h2><em>JetBlue Customer Sentiment Prediction and Opinion Mining with Tweets</em></h2>
             <br />
             <div>
             <h2>Our Goal</h2>
