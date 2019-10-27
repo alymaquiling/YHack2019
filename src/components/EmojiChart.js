@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LineChart from './BarChart'
 import BarChart from './BarChart';
 
 let data = [["Words","Counts"],

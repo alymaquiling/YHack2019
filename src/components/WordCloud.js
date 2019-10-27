@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import randomColor from 'randomcolor';
 import TagCloud from 'react-tag-cloud';
-//import { TagCloud } from 'react-tagcloud'
 import CloudItem from './CloudItem';
 import Container from 'react-bootstrap/Container'
 

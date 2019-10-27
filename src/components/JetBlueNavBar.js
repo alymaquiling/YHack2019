@@ -50,12 +50,12 @@ class JetBlueNavBar extends Component {
                     <MainPage />
                     </Container>
                 </Route>
-                <Route relative path="/emojis">
+                <Route exact path="/emojis">
                     <Container>
                         <EmojiChart /> 
                     </Container>
                 </Route>
-                <Route relative path="/wordcloud">
+                <Route exact path="/wordcloud">
                     <Container>
                         <WordCloud />
                     </Container>
