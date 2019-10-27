@@ -23,7 +23,7 @@ class JetBlueNavBar extends Component {
             <Router>
             <div>
                 <Navbar bg="primary" variant="dark">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                     <img
                         alt=""
                         src='/jetblue.png'
@@ -45,19 +45,19 @@ class JetBlueNavBar extends Component {
                 {/* A <Switch> looks through its children <Route>s and
                     renders the first one that matches the current URL. */}
                 <Switch>
-                <Route exact path="/">
-                    <Container>
-                    <MainPage />
-                    </Container>
-                </Route>
-                <Route exact path="/emojis">
+                <Route path="/emojis">
                     <Container>
                         <EmojiChart /> 
                     </Container>
                 </Route>
-                <Route exact path="/wordcloud">
+                <Route path="/wordcloud">
                     <Container>
                         <WordCloud />
+                    </Container>
+                </Route>
+                <Route exact path="/">
+                    <Container>
+                    <MainPage />
                     </Container>
                 </Route>
                 </Switch>
