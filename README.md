@@ -19,4 +19,6 @@ We also had a Flask API endpoint created to make it easier perform data analysis
 
 Our website was developed using create-react-app and our components were built using React-Bootstrap and Google Charts.
 
-We deployed on the app on Netlify, and it is viewable at http://mininginsights.online!
+We deployed on the app on Netlify, and it is viewable [here](http://mininginsights.online)!
+
+### [DevPost page](https://devpost.com/software/mininginsights-online-for-jetblue) can be found here
