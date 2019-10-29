@@ -21,4 +21,4 @@ Our website was developed using create-react-app and our components were built u
 
 We deployed on the app on Netlify, and it is viewable [here](http://mininginsights.online)!
 
-#### [DevPost page](https://devpost.com/software/mininginsights-online-for-jetblue) can be found here
+#### [DevPost page](https://devpost.com/software/mininginsights-online-for-jetblue) can be found here.
